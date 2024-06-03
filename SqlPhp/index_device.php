@@ -28,13 +28,13 @@ session_start();
 <body>
 
 <nav class="navbar navbar-light justify-content-between fs-3 mb-5"
-     style="background-image: linear-gradient(grey, rgb(255, 255, 255));">
+     style="background-image: linear-gradient(rgb(0, 117, 201), rgb(255, 255, 255));">
 
-     <a href="index.php" class="btn btn-dark">DataBase</a>
+     <a style=" font-weight: bold;  " href="index.php" class="btn">DataBase</a>
 
     <h1 class="navbar-brand mx-auto">Device Table</h1>
     
-    <a href="logout.php" class="btn btn-dark">LogOut</a>
+    <a  style=" font-weight: bold;  " href="logout.php" class="btn">LogOut</a>
 </nav>
 
     <div class="container">

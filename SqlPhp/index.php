@@ -79,7 +79,7 @@ section{
 header{
     position: fixed;
     top: 0; right: 0; left: 0;
-    background-image: linear-gradient(rgb(160, 37, 198),rgb(247, 220, 255));
+    background-image: linear-gradient(rgb(0, 117, 201),rgb(255, 255, 255));
     padding: 1rem 9%;
     display: flex;
     align-items: center;
@@ -191,7 +191,7 @@ header .mainlist a:active{
 /*the start of footer section*/
 
 .footer{
-    background-image: linear-gradient(#ffffff,rgb(160, 37, 198));
+    background-image: linear-gradient(#ffffff,rgb(0, 117, 201));
 
 }
 
@@ -379,9 +379,9 @@ html{
 
         <div class="icons">
             <a class="fas fa-heart"></a>
-            <a href="logout.php"><input type="submit" name="" value="LogOut" style="background: black ; 
-                color: white; hieght: 50px; width: 80px; margin-top: 20px;
-                 font-size: 13px;border:2;border-radius:5px; cursor: pointer;"></a>
+            <a href="logout.php"><input type="submit" name="" value="LogOut" style="
+                color: black; hieght: 80px; width: 80px; 
+                 font-size: 15px;border:2;border-radius:5px; cursor: pointer;"></a>
         </div>
 
     </header>
